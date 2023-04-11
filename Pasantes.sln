@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pasantes.Website", "src\code\Project\Pasantes.Website\Pasantes.Website.csproj", "{4CC60032-D57C-4B1E-ACFE-F0C07ACF8B28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{0BBAF187-E405-4267-84B9-97A43C0CC8A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{C204E187-C765-4969-854E-D9C7F5E81E3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{BB24B10C-E77A-4D7E-B3CD-99A8F1E3BDAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CC60032-D57C-4B1E-ACFE-F0C07ACF8B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC60032-D57C-4B1E-ACFE-F0C07ACF8B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC60032-D57C-4B1E-ACFE-F0C07ACF8B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC60032-D57C-4B1E-ACFE-F0C07ACF8B28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CC60032-D57C-4B1E-ACFE-F0C07ACF8B28} = {BB24B10C-E77A-4D7E-B3CD-99A8F1E3BDAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF2B8D0E-96D5-402C-B29B-6A9331FD65C0}
+	EndGlobalSection
+EndGlobal
