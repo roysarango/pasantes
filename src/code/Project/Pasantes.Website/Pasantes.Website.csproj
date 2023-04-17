@@ -677,6 +677,7 @@
     <Compile Include="IOC\RegisterDependencies.cs" />
     <Compile Include="Models\GlassMapper\BaseItem.cs" />
     <Compile Include="Models\GlassMapper\IBaseItem.cs" />
+    <Compile Include="Models\TitleAndText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\GlassMapper\DataSourceServices.cs" />
     <Compile Include="Services\GlassMapper\IRenderingService.cs" />
@@ -697,6 +698,8 @@
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Layout\DefaultLayout.cshtml" />
     <Content Include="Views\Sample.cshtml" />
+    <Content Include="Views\TitleAndText.cshtml" />
+    <Content Include="Views\TitleAndTextGlassMapper.cshtml" />
     <None Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

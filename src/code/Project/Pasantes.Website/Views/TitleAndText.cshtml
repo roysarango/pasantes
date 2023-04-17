@@ -1,0 +1,9 @@
+﻿@model Sitecore.Data.Items.Item
+  
+<div style="border: solid red 10px;">
+    <strong>Without GlassMapper</strong>
+    <h2>@Model.Fields["Title"].Value</h2>
+    <div>
+        @Html.Raw(Model.Fields["Text"].Value)
+    </div>
+    </div>
