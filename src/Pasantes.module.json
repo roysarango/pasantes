@@ -1,0 +1,27 @@
+﻿{
+	"namespace": "Pasantes.Websites",
+	"items": {
+		"includes": [
+			{
+				"name": "templates",
+				"path": "/sitecore/templates/User Defined"
+			},
+			{
+				"name": "layouts",
+				"path": "/sitecore/layout/Layouts/User Defined"
+			},
+			{
+				"name": "renderings",
+				"path": "/sitecore/layout/renderings/User Defined"
+			},
+			{
+				"name": "placeholders",
+				"path": "/sitecore/layout/Placeholder Settings/User Defined"
+			},
+			{
+				"name": "home",
+				"path": "/sitecore/content/Home"
+			}
+		]
+	}
+}
