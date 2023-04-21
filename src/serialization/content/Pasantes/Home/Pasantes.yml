@@ -1,8 +1,8 @@
 ﻿---
 ID: "c93f094f-45e2-4445-9506-b5734a771706"
-Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Parent: "1a3575cf-215a-4204-8c75-8b56026a6558"
 Template: "66ee465a-3434-455e-88c4-bc5d987c75ec"
-Path: /sitecore/content/Home/Pasantes
+Path: /sitecore/content/Pasantes/Home/Pasantes
 SharedFields:
 - ID: "7ead6fd6-6cf1-4aca-ac6b-b200e7bafe88"
   Hint: __Unpublish
@@ -51,11 +51,11 @@ Languages:
       Value: Pasantes
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7230a127-9576-40a5-badb-b588995bc044"
+      Value: "3f95d37f-a957-4810-89c1-79f7f756276b"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230419T132307Z
+      Value: 20230421T014417Z

@@ -19,12 +19,8 @@
 				"path": "/sitecore/layout/Placeholder Settings/User Defined"
 			},
 			{
-				"name": "data",
-				"path": "/sitecore/content/Data"
-			},			
-			{
-				"name": "home",
-				"path": "/sitecore/content/Home"
+				"name": "content",
+				"path": "/sitecore/content/Pasantes"
 			}
 		]
 	}

@@ -1,8 +1,8 @@
 ﻿---
 ID: "86b24852-b71b-449e-b06d-5df9105032b0"
-Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Parent: "e4e86f91-3130-40ab-9921-a6fa77738a80"
 Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
-Path: /sitecore/content/Data
+Path: /sitecore/content/Pasantes/Data
 Languages:
 - Language: en
   Versions:
@@ -21,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "fa1b8885-2ea1-4677-ade3-314cacb20a96"
+      Value: "06c7dd9f-b101-47c0-a814-bc383b4f9427"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230419T014439Z
+      Value: 20230421T013758Z

@@ -15,7 +15,7 @@ SharedFields:
   Value: 1
 - ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
   Hint: Datasource Location
-  Value: /sitecore/content/Data/Title And Text
+  Value: /sitecore/content/Pasantes/Data/Title And Text
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
   Value: TitleAndText
@@ -40,11 +40,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b6859f6a-0b8c-4427-8a8b-6084f054cf98"
+      Value: "0913a462-4d32-47a1-9b43-9fc4e9964aa8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230419T015006Z
+      Value: 20230421T013758Z

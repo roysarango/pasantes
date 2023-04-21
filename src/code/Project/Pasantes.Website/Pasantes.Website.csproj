@@ -694,6 +694,9 @@
     <Content Include="App_Config\Include\z.Pasantes\Pasantes.Website.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="App_Config\Include\z.Pasantes\Pasantes.Site.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <Content Include="Views\Layout\DefaultLayout.cshtml" />
