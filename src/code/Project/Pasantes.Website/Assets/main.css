@@ -1,0 +1,13 @@
+﻿.img {
+    width: 80%;
+    z-index: 0;
+}
+
+.text-over-img {
+    z-index: 1;
+    font-size: 1.2em;
+    margin-top: -150px;
+    margin-left: 50px;
+    color: white;
+    padding-bottom: 70px;
+}

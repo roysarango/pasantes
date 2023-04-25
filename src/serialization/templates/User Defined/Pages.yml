@@ -1,8 +1,8 @@
 ﻿---
-ID: "edac90d2-36ea-4976-bbc5-8d7a5ccd92c1"
-Parent: "86b24852-b71b-449e-b06d-5df9105032b0"
-Template: "f0f61252-dbcc-4fd9-91e4-44ad4a064165"
-Path: /sitecore/content/Pasantes/Data/Student
+ID: "62afc8e4-59cc-42ac-aa07-be125d16e9e4"
+Parent: "b29ee504-861c-492f-95a3-0d890b6fca09"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/User Defined/Pages
 Languages:
 - Language: en
   Versions:
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230419T014817Z
+      Value: 20230424T203500Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8f5d3e7f-0355-45db-b6e4-5c7d79d69020"
+      Value: "e94f5884-9730-42ef-bef4-57a90c8aed0d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230424T203651Z
+      Value: 20230424T203500Z

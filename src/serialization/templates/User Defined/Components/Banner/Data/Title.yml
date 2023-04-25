@@ -1,8 +1,15 @@
 ﻿---
-ID: "edac90d2-36ea-4976-bbc5-8d7a5ccd92c1"
-Parent: "86b24852-b71b-449e-b06d-5df9105032b0"
-Template: "f0f61252-dbcc-4fd9-91e4-44ad4a064165"
-Path: /sitecore/content/Pasantes/Data/Student
+ID: "5f7a0e26-4e89-44e3-8756-1d7b40e4fa9c"
+Parent: "7d610b47-7ab7-4299-b2cd-d71c6c330300"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/User Defined/Components/Banner/Data/Title
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: "Single-Line Text"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
 Languages:
 - Language: en
   Versions:
@@ -10,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230419T014817Z
+      Value: 20230424T205459Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8f5d3e7f-0355-45db-b6e4-5c7d79d69020"
+      Value: "2e212dfa-9bde-48e7-a72f-65b1d3fe9473"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230424T203651Z
+      Value: 20230425T003154Z

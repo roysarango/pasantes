@@ -1,0 +1,26 @@
+﻿---
+ID: "2c3e6264-51b1-4cac-9eaa-cf2239755ab6"
+Parent: "1a3575cf-215a-4204-8c75-8b56026a6558"
+Template: "3887ad04-6ee9-401c-9a50-aa581d932eac"
+Path: /sitecore/content/Pasantes/Home/Renderings
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230425T015430Z
+    - ID: "6435594a-ffe7-4b13-bf12-d59fc567732d"
+      Hint: Title
+      Value: Renderings
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "99b18c40-da3a-4536-99cb-9de8c9fb6d65"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230425T015834Z

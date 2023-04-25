@@ -1,0 +1,23 @@
+﻿---
+ID: "275d2bce-1a54-40b4-aa19-66192f37a263"
+Parent: "86b24852-b71b-449e-b06d-5df9105032b0"
+Template: "8b978364-7c13-487a-9bce-eb3d2fcbbe88"
+Path: /sitecore/content/Pasantes/Data/Banner
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230425T002107Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5505611-8b10-412d-9956-e0101829ba63"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230425T002141Z
