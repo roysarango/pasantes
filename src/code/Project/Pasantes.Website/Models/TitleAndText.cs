@@ -1,4 +1,6 @@
-﻿using Glass.Mapper.Sc.Fields;
+﻿using Glass.Mapper.Sc.Configuration.Attributes;
+using Glass.Mapper.Sc.Fields;
+using Google.Protobuf.WellKnownTypes;
 using Pasantes.Website.Models.GlassMapper;
 
 namespace Pasantes.Website.Models
@@ -8,7 +10,7 @@ namespace Pasantes.Website.Models
         public virtual string Title { get; set; }
 
         public virtual string Text { get; set; }
-
-        public virtual Image Image1 { get; set; }
+        [SitecoreField("Image 1")]
+        public virtual Image Image { get; set; }
     }
 }

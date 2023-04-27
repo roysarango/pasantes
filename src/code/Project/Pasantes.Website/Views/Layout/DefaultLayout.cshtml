@@ -1,5 +1,37 @@
 ﻿@using Sitecore.Mvc
 <!DOCTYPE html>
+<style>
+    body {
+        margin: 0;
+    }
+
+    footer {
+        background-color: #fff
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 10% 80% 10%;
+        grid-gap: 10px;
+    }
+
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 10px;
+        background-color: #4B5460;
+    }
+
+    .link-wrapper {
+        padding: 20px;
+        font-size: 150%;
+    }
+
+    img {
+        width: 100%;
+    }
+</style>
+
 <head>
     <title>PASANTES DE SITECORE</title>
 </head>
@@ -8,5 +40,21 @@
         @Html.Sitecore().Placeholder("header")
         @Html.Sitecore().Placeholder("main")
         @Html.Sitecore().Placeholder("footer")
+        <div class="footer-wrapper">
+            <div class="link-wrapper">
+                <a href="https://github.com/" style="color:white">Github</a>
+            </div>
+            <div class="link-wrapper">
+                <a href="https://www.linkedin.com/" style="color:white">LinkedIn</a>
+            </div>
+            <div class="link-wrapper">
+                <a href="https://www.facebook.com/" style="color:white">Facebook</a>
+            </div>
+            <div class="link-wrapper">
+                <a href="https://www.gmail.com/" style="color:white">Gmail</a>
+            </div>
+        </div>
+
+
     </div>
 </body>
