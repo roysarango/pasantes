@@ -1,0 +1,109 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined.yml
+ID: "b29ee504-861c-492f-95a3-0d890b6fca09"
+Parent: "3c1715fe-6a13-4fcf-845f-de308ba9741d"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/User Defined
+Signature: iIfvaCF9S/JgHO/wi36BFQosGeO7rZIUPGcd1ibHXNo=
+Modified: 638185691053413670
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Components\Title And Text.yml
+ID: "24a73420-9440-49e7-9520-dd78f9713800"
+Parent: "2be15b0f-4b79-40fe-b8d1-b862e4908d2b"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/User Defined/Components/Title And Text
+Signature: Z7weB5dVW6+waxUeQ/2ZVHVyzsUf1TE4ga7tUYeXp3s=
+Modified: 638185691053423661
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Page\Sample\Title.yml
+ID: "6435594a-ffe7-4b13-bf12-d59fc567732d"
+Parent: "589547e1-7878-4c17-a55e-0c7a046964cb"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/User Defined/Page/Sample/Title
+Signature: vzSqtWdCg39ObgvjVuiMcTdA+vp2/BY529ZS/TqrPTk=
+Modified: 638185691053453665
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Components\Title And Text\Data\Title.yml
+ID: "82aa773b-60f5-4c65-8ab0-dd314d8664aa"
+Parent: "2817c350-620b-46f4-9b50-afc798e7d1bc"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/User Defined/Components/Title And Text/Data/Title
+Signature: jxbE8PmsKAx5oWDH/RCZ7eX3Bp+AMYh1dGF1K9TB1hY=
+Modified: 638185691053443665
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Components\Title And Text\Data\Text.yml
+ID: "e3a13365-5545-4aa6-914c-57761c7ac804"
+Parent: "2817c350-620b-46f4-9b50-afc798e7d1bc"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/User Defined/Components/Title And Text/Data/Text
+Signature: q9e33fNcnrvyZWrPQGgbz4YMnPpe/dgbqkKOqRJjRJU=
+Modified: 638185691053433666
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Page\__Standard Values.yml
+ID: "787ad99d-215b-489d-b157-31770b1406e6"
+Parent: "66ee465a-3434-455e-88c4-bc5d987c75ec"
+Template: "66ee465a-3434-455e-88c4-bc5d987c75ec"
+Path: /sitecore/templates/User Defined/Page/__Standard Values
+Signature: g1dse54sl9MfUY2l6MpPk0GGzvk9znQ7FJLDQL5KUPw=
+Modified: 638185691053463666
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Page\Sample.yml
+ID: "589547e1-7878-4c17-a55e-0c7a046964cb"
+Parent: "66ee465a-3434-455e-88c4-bc5d987c75ec"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/User Defined/Page/Sample
+Signature: 9QXaSBMeDQqBkf9oufLX5OgqJ9fvOIo0b8zgo49EFeU=
+Modified: 638185691053453665
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Components\Title And Text\Data.yml
+ID: "2817c350-620b-46f4-9b50-afc798e7d1bc"
+Parent: "24a73420-9440-49e7-9520-dd78f9713800"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/User Defined/Components/Title And Text/Data
+Signature: jskd90hF/Eyee8nCkHeBdxLlLOtiuq6JHsR76GgnXGw=
+Modified: 638185691053423661
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Components\Title And Text\__Standard Values.yml
+ID: "696c14ca-ffa5-47b1-9b60-40f96a0f4717"
+Parent: "24a73420-9440-49e7-9520-dd78f9713800"
+Template: "24a73420-9440-49e7-9520-dd78f9713800"
+Path: /sitecore/templates/User Defined/Components/Title And Text/__Standard Values
+Signature: 8N0fPCdSeMEFvZOIkOGLhh58bIFwVTHG4giTktqXkrQ=
+Modified: 638185691053443665
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Components.yml
+ID: "2be15b0f-4b79-40fe-b8d1-b862e4908d2b"
+Parent: "b29ee504-861c-492f-95a3-0d890b6fca09"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/User Defined/Components
+Signature: Osx5dAvqBwV3dimjhcSPjI10enfpYzzKKsnn/uc5iNU=
+Modified: 638185691053413670
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Components\Title And Text\Data\Image 1.yml
+ID: "20d341fd-8028-46b5-b5f5-be08abf3a4b3"
+Parent: "2817c350-620b-46f4-9b50-afc798e7d1bc"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/User Defined/Components/Title And Text/Data/Image 1
+Signature: YUCqDiE6Lvob+VtfZWKcXshDHQlBSeNXVVegtOUV48o=
+Modified: 638185691053433666
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\templates\User Defined\Page.yml
+ID: "66ee465a-3434-455e-88c4-bc5d987c75ec"
+Parent: "b29ee504-861c-492f-95a3-0d890b6fca09"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/User Defined/Page
+Signature: feo0LYfHAZjIwtkxktOJtI3sx45yCM3B9XLxE2CoxdY=
+Modified: 638185691053443665

@@ -1,0 +1,19 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\layouts\User Defined\DefaultLayout.yml
+ID: "e4176706-77d4-4f93-87ec-b9dd5ca31ed5"
+Parent: "ebdb6135-2a37-4a2b-bc8d-9246f163af20"
+Template: "3a45a723-64ee-4919-9d41-02fd40fd1466"
+Path: /sitecore/layout/Layouts/User Defined/DefaultLayout
+Signature: 1RnhGlfadL92SI4HSvF4+09vuTltNNkord59lBmC36I=
+Modified: 638185691053383670
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\layouts\User Defined.yml
+ID: "ebdb6135-2a37-4a2b-bc8d-9246f163af20"
+Parent: "75cc5ce4-8979-4008-9d3c-806477d57619"
+Template: "93227c5d-4fef-474d-94c0-f252ec8e8219"
+Path: /sitecore/layout/Layouts/User Defined
+Signature: MoIluZXwWsDoaD4fsXcyzoCdusAynu2OWtEpPY2KHEM=
+Modified: 638185691053373668

@@ -1,0 +1,28 @@
+﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\home\Home\Pasantes\MyModel.yml
+ID: "58251e6f-412f-4636-84c7-ad663e123a02"
+Parent: "c93f094f-45e2-4445-9506-b5734a771706"
+Template: "24a73420-9440-49e7-9520-dd78f9713800"
+Path: /sitecore/content/Home/Pasantes/MyModel
+Signature: bikkcmis5Sks5z/3/cC90XkSzWiaWOUm2VVxFXSX0mU=
+Modified: 638185691053363667
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\home\Home.yml
+ID: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/content/Home
+Signature: gJgcaUamuqCfflwHfEPUV0+ZPviulmDFtpQGUUAjt84=
+Modified: 638185691053353667
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\home\Home\Pasantes.yml
+ID: "c93f094f-45e2-4445-9506-b5734a771706"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "66ee465a-3434-455e-88c4-bc5d987c75ec"
+Path: /sitecore/content/Home/Pasantes
+Signature: AuIL/Dk1QH1VlGGn54FWjAV3HUh0GTYT8vvIknSQJGI=
+Modified: 638185691053363667
