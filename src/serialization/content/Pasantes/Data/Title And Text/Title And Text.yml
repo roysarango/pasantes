@@ -1,0 +1,29 @@
+﻿---
+ID: "41e678f2-7236-4a06-91f0-14790294923c"
+Parent: "9adf0727-fab2-41fe-ac38-b203c2ac2112"
+Template: "24a73420-9440-49e7-9520-dd78f9713800"
+Path: /sitecore/content/Pasantes/Data/Title And Text/Title And Text
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230419T014519Z
+    - ID: "82aa773b-60f5-4c65-8ab0-dd314d8664aa"
+      Hint: Title
+      Value: "Title And Text - Pasantes 2"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "969dd728-8a73-4d2b-a685-1671891a9b09"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230419T132315Z
+    - ID: "e3a13365-5545-4aa6-914c-57761c7ac804"
+      Hint: Text
+      Value: "Hello!"

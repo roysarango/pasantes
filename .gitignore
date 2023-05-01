@@ -31,3 +31,4 @@ publishTemp/
 *.orig
 .sitecore/package-cache/*
 .sitecore/user.json
+*.scindex

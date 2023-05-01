@@ -1,0 +1,46 @@
+﻿---
+ID: "8aa9361f-09ad-40e0-95ab-21f860775599"
+Parent: "3887ad04-6ee9-401c-9a50-aa581d932eac"
+Template: "3887ad04-6ee9-401c-9a50-aa581d932eac"
+Path: /sitecore/templates/User Defined/Pages/Topic/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            l="{E4176706-77D4-4F93-87EC-B9DD5CA31ED5}">
+            <r
+              ds="{C8BD17DC-2041-4F0E-A13C-E7121B85BFE0}"
+              id="{E0848C23-3E5A-400A-B2AB-CCD55A156935}"
+              par=""
+              ph="header"
+              uid="{05F60FBF-DF5A-4056-BCF6-0080DFD49325}"
+              ccb="Clear on publish" />
+            <r
+              ds=""
+              id="{95C51F38-58C8-49E0-853F-1498D1535FF4}"
+              par=""
+              ph="header"
+              uid="{0F7FC06D-768A-49DE-9204-068E14F9A9B6}"
+              ccb="Clear on publish" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230424T203418Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ed53b26-fd24-40a6-b731-c562892a938c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230425T015911Z

@@ -1,0 +1,33 @@
+﻿---
+ID: "eef7f256-3959-454d-90a2-80b829419594"
+Parent: "275d2bce-1a54-40b4-aa19-66192f37a263"
+Template: "92038263-cc15-4f1f-921a-208001c37268"
+Path: /sitecore/content/Pasantes/Data/Banner/Serialization
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ea3c7a2-c8e3-40fe-9885-34fae3956f51"
+      Hint: Image
+      Value: |
+        <image mediaid="{38979856-E8E6-4E9B-942D-4319FC62D610}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230425T002149Z
+    - ID: "4e42ff67-3aac-417b-992c-b4fc711a033d"
+      Hint: Description
+      Value: Serializing items with SCS (Sitecore Content Serialization)
+    - ID: "5f7a0e26-4e89-44e3-8756-1d7b40e4fa9c"
+      Hint: Title
+      Value: Serialization
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd0144d0-2b7c-4eee-a19b-660939b135b4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230425T005315Z

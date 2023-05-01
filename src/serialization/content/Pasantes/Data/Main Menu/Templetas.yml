@@ -1,0 +1,30 @@
+﻿---
+ID: "29e879ff-918f-4dae-a2bf-f412cc800e8c"
+Parent: "c8bd17dc-2041-4f0e-a13c-e7121b85bfe0"
+Template: "3f5a16ec-3c44-40b9-a066-d0c806f3cb8a"
+Path: /sitecore/content/Pasantes/Data/Main Menu/Templetas
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230424T205817Z
+    - ID: "63714d9b-3752-4e4a-aae0-b4bf120983e5"
+      Hint: Title
+      Value: Templetas
+    - ID: "67662485-929e-4d38-bd13-85a0aead84d7"
+      Hint: Link
+      Value: |
+        <link text="Who we are" linktype="external" url="https://www.google.com" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "772ebecb-0694-4a52-b227-372a15a58928"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230425T020112Z

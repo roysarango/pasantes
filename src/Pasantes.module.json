@@ -19,8 +19,13 @@
 				"path": "/sitecore/layout/Placeholder Settings/User Defined"
 			},
 			{
-				"name": "home",
-				"path": "/sitecore/content/Home"
+				"name": "medialibrary",
+				"path": "/sitecore/media library/User Defined"
+			}
+			,
+			{
+				"name": "content",
+				"path": "/sitecore/content/Pasantes"
 			}
 		]
 	}
