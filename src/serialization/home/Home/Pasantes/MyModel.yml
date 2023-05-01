@@ -1,0 +1,38 @@
+﻿---
+ID: "58251e6f-412f-4636-84c7-ad663e123a02"
+Parent: "c93f094f-45e2-4445-9506-b5734a771706"
+Template: "24a73420-9440-49e7-9520-dd78f9713800"
+Path: /sitecore/content/Home/Pasantes/MyModel
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20d341fd-8028-46b5-b5f5-be08abf3a4b3"
+      Hint: Image 1
+      Value: |
+        <image mediaid="{04DAD0FD-DB66-4070-881F-17264CA257E1}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230414T014654Z
+    - ID: "82aa773b-60f5-4c65-8ab0-dd314d8664aa"
+      Hint: Title
+      Value: Welcome to Sitecore
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bacb56a7-1f08-4b61-a96c-f5ededc96d5c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230414T021956Z
+    - ID: "e3a13365-5545-4aa6-914c-57761c7ac804"
+      Hint: Text
+      Value: |
+        <p style="color: #5f5f5f; background-color: #ffffff; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; line-height: 1.7;">To activate this feature, you need to tell the sitemap.xml generator which languages your site supports. You do this by configuring the desired &lt;site/&gt; element in your Sitecore config files.</p>
+        <ul style="color: #5f5f5f; background-color: #ffffff; margin: 0px 0px 0.5em 1em; padding: 0px; list-style-image: initial;">
+            <li style="line-height: 28px;">Ensure you specify a &ldquo;defaultLanguage&rdquo; attribute with a proper ISO language code that matches the Language Item in Sitecore.</li>
+            <li style="line-height: 28px;">Add a new custom &ldquo;supportedLanguages&rdquo; attribute to your &lt;site/&gt; config element. The value of this attribute should be a comma-delimited list of ISO language codes, again, matching your Languages as defined within Sitecore.</li>
+        </ul>
