@@ -23,12 +23,20 @@ Languages:
               uid="{05F60FBF-DF5A-4056-BCF6-0080DFD49325}"
               ccb="Clear on publish" />
             <r
-              ds=""
+              ds="{EEF7F256-3959-454D-90A2-80B829419594}"
               id="{95C51F38-58C8-49E0-853F-1498D1535FF4}"
               par=""
               ph="header"
               uid="{0F7FC06D-768A-49DE-9204-068E14F9A9B6}"
               ccb="Clear on publish" />
+            <r
+              id="{490B1646-324A-4EFA-8647-9776B4C5B40A}"
+              ph="main"
+              uid="{B7CFFC06-76C9-49F7-A485-AE45269C79CB}" />
+            <r
+              id="{95C51F38-58C8-49E0-853F-1498D1535FF4}"
+              ph="left-content"
+              uid="{DCA75B52-0B8D-49B3-B5E4-8C9A1A3A74B6}" />
           </d>
         </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
@@ -36,11 +44,11 @@ Languages:
       Value: 20230424T203418Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6ed53b26-fd24-40a6-b731-c562892a938c"
+      Value: "e9a2a821-5ace-4f44-819b-34c2028a3394"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230425T015911Z
+      Value: 20230428T015449Z

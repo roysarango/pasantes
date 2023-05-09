@@ -709,6 +709,9 @@
     <Content Include="Views\TitleAndTextGlassMapper.cshtml" />
     <Content Include="Views\MainMenu.cshtml" />
     <Content Include="Views\Banner.cshtml" />
+    <Content Include="Views\Design\TwoColumn.cshtml" />
+    <Content Include="Views\Design\ThreeColumn.cshtml" />
+    <Content Include="Views\Design\FourColumn.cshtml" />
     <None Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

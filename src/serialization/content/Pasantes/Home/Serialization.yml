@@ -8,18 +8,6 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
-      Hint: __Final Renderings
-      Value: |
-        <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
-          <d
-            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
-            <r
-              uid="{0F7FC06D-768A-49DE-9204-068E14F9A9B6}"
-              s:ds="{EEF7F256-3959-454D-90A2-80B829419594}" />
-          </d>
-        </r>
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20230425T004917Z
@@ -28,11 +16,11 @@ Languages:
       Value: Serialization
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0cca1683-bbc5-4e84-9bb4-2ea957fc7c78"
+      Value: "f7ef70fc-4365-489c-99bd-24116db443f8"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230425T015955Z
+      Value: 20230428T015449Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "8308b1c5-2bf8-4a9f-9681-4839c7605fbd"
+Parent: "796dea1e-01f1-4ae4-a447-cde4e7e947e3"
+Template: "c821fa91-3db2-4548-af21-12e9e62afdf1"
+Path: /sitecore/content/Pasantes/Data/Asset Lists/New Asset List
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230502T013532Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84d33c79-e305-4729-b840-952c977a83f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230502T013611Z
+    - ID: "ef562630-b935-4197-a7e0-30cc9e5c2877"
+      Hint: Image List
+      Value: |
+        {A730F731-E012-4F65-9115-152C1964AB53}
+        {7D8FCBCE-AD42-4940-ABA4-E1CBA03B77F5}
+        {BD50B36D-3835-4D5F-8F42-DB2B187AE956}
