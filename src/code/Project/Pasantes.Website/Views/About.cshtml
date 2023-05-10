@@ -1,0 +1,13 @@
+﻿@model Pasantes.Website.Models.About
+
+<div class="container m-0">
+    <h2>@Model.Title</h2>
+    <hr class="bg-info">
+    <p>@Model.Description</p>
+    @if (Model.Image != null)
+    {
+        <div class="container">
+            <img src="@Model.Image.Src" alt="Image Footer" class="img-fluid mx-auto d-block" style="max-width: 100%; max-height: 200px;">
+        </div>
+    }
+</div>

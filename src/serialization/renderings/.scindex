@@ -1,6 +1,42 @@
 ﻿# Do not commit this file to source control or modify it. It is safe to delete; it will recreate itself.
 ---
 File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Components.yml
+ID: "a2eb7111-78b6-4dbf-9a53-0074c036573e"
+Parent: "22cc8e86-fcca-41b4-816f-a9048497f562"
+Template: "7ee0975b-0698-493e-b3a2-0b2ef33d0522"
+Path: /sitecore/layout/Renderings/User Defined/Components
+Signature: 15gWCOJshnhRAeH3pXhtePz5opaW51YFudcecTiDMrM=
+Modified: 638185714396445008
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Components\Sample.yml
+ID: "b6169aa4-8496-49bd-8e00-a993db3929d0"
+Parent: "a2eb7111-78b6-4dbf-9a53-0074c036573e"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/User Defined/Components/Sample
+Signature: JeXIWFnqHbCosWc8gkxgRiouIALzLD5Pb9NluVN/110=
+Modified: 638185714396455015
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Components\Banner.yml
+ID: "95c51f38-58c8-49e0-853f-1498d1535ff4"
+Parent: "a2eb7111-78b6-4dbf-9a53-0074c036573e"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/User Defined/Components/Banner
+Signature: he5DwRT0geNZzrzCmrAYz4or2Bg7A6CdAh8viNlvjEI=
+Modified: 638185714396445008
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Components\Main Menu.yml
+ID: "e0848c23-3e5a-400a-b2ab-ccd55a156935"
+Parent: "a2eb7111-78b6-4dbf-9a53-0074c036573e"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/User Defined/Components/Main Menu
+Signature: A6H6xLPBRRjL7Pu+w89nFkEL6Uo1kkxpNit/TfI5og8=
+Modified: 638185714396455015
+---
+File: |
   C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined.yml
 ID: "22cc8e86-fcca-41b4-816f-a9048497f562"
 Parent: "32566f0e-7686-45f1-a12f-d7260bd78bc3"
@@ -10,28 +46,19 @@ Signature: bvRz2YouD9YtqcA3qLuJvrDOhc84klHV9q0RhXGuWe0=
 Modified: 638185691053393667
 ---
 File: |
-  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Title And Text GM.yml
-ID: "12c90c21-e25f-4c13-8d2f-a6ac3181ca7a"
-Parent: "22cc8e86-fcca-41b4-816f-a9048497f562"
-Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/User Defined/Title And Text GM
-Signature: oRSgfm2b/8KHUj62F8L8xVdtIKMi3wbIpW+8QPcgQS8=
-Modified: 638185691053403666
----
-File: |
-  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Sample.yml
-ID: "b6169aa4-8496-49bd-8e00-a993db3929d0"
-Parent: "22cc8e86-fcca-41b4-816f-a9048497f562"
-Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/User Defined/Sample
-Signature: JeXIWFnqHbCosWc8gkxgRiouIALzLD5Pb9NluVN/110=
-Modified: 638185691053393667
----
-File: |
-  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Title And Text.yml
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Components\Title And Text.yml
 ID: "52c5114b-a153-4573-aa7f-d6c2ca166980"
-Parent: "22cc8e86-fcca-41b4-816f-a9048497f562"
+Parent: "a2eb7111-78b6-4dbf-9a53-0074c036573e"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/User Defined/Title And Text
-Signature: DkM0pKH0eNeopZrpTP/VicSGi3p776NEF3TqL32clgU=
-Modified: 638185691053403666
+Path: /sitecore/layout/Renderings/User Defined/Components/Title And Text
+Signature: ZqSuwLnSZH5OsOzhDX+M21YuAQbKQ9jndfdK86bXCks=
+Modified: 638185714396465019
+---
+File: |
+  C:\Users\paulr\Escritorio\SiteCore\pasantes\src\serialization\renderings\User Defined\Components\Title And Text GM.yml
+ID: "12c90c21-e25f-4c13-8d2f-a6ac3181ca7a"
+Parent: "a2eb7111-78b6-4dbf-9a53-0074c036573e"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/User Defined/Components/Title And Text GM
+Signature: LQJQFIO8dBeKIHPBO8GFSn9GDT4xrGK5oiHZYTQ1Bm4=
+Modified: 638185714396455015

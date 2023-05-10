@@ -1,0 +1,31 @@
+﻿@model Pasantes.Website.Models.SocialNetworks
+
+<div class="container m-0">
+    <h2>@Model.Title</h2>
+    <hr class="bg-info">
+    <p>@Model.Description</p>
+    <div class="row my-5">
+        <div class="col-sm-6">
+            <a href="@Model.Link1.Url" class="btn btn-light w-100">
+                <img src="@Model.IconLink1.Src" alt="@Model.IconLink1.Alt" width="@Model.IconLink1.Width" height="@Model.IconLink1.Height"> @Model.Link1.Text
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="@Model.Link2.Url" class="btn btn-info w-100">
+                <img src="@Model.IconLink2.Src" alt="@Model.IconLink2.Alt" width="@Model.IconLink2.Width" height="@Model.IconLink2.Height"> @Model.Link2.Text
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <a href="@Model.Link3.Url" class="btn btn-info w-100">
+                <img src="@Model.IconLink3.Src" alt="@Model.IconLink3.Alt" width="@Model.IconLink3.Width" height="@Model.IconLink3.Height"> @Model.Link3.Text
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="@Model.Link4.Url" class="btn btn-light w-100">
+                <img src="@Model.IconLink4.Src" alt="@Model.IconLink4.Alt" width="@Model.IconLink4.Width" height="@Model.IconLink4.Height"> @Model.Link4.Text
+            </a>
+        </div>
+    </div>
+</div>

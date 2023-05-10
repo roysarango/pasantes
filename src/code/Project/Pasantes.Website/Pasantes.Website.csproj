@@ -676,11 +676,15 @@
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="Controller\DefaultController.cs" />
     <Compile Include="IOC\RegisterDependencies.cs" />
+    <Compile Include="Models\About.cs" />
+    <Compile Include="Models\Contact.cs" />
+    <Compile Include="Models\CreatedBy.cs" />
     <Compile Include="Models\GlassMapper\BaseItem.cs" />
     <Compile Include="Models\GlassMapper\IBaseItem.cs" />
     <Compile Include="Models\Banner.cs" />
     <Compile Include="Models\MainMenuContainer.cs" />
     <Compile Include="Models\MainMenu.cs" />
+    <Compile Include="Models\SocialNetworks.cs" />
     <Compile Include="Models\TitleAndText.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\GlassMapper\DataSourceServices.cs" />
@@ -709,6 +713,10 @@
     <Content Include="Views\TitleAndTextGlassMapper.cshtml" />
     <Content Include="Views\MainMenu.cshtml" />
     <Content Include="Views\Banner.cshtml" />
+    <Content Include="Views\About.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
+    <Content Include="Views\SocialNetworks.cshtml" />
+    <Content Include="Views\CreatedBy.cshtml" />
     <None Include="Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

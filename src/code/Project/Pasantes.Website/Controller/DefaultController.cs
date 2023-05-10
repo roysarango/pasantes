@@ -72,5 +72,29 @@ namespace Pasantes.Website.Controller
 
             return View("~/Views/Banner.cshtml", item);
         }
+        public ActionResult About()
+        {
+            var item = _renderingService.GetDataSource<About>();
+
+            return View("~/Views/About.cshtml", item);
+        }
+        public ActionResult Contact()
+        {
+            var item = _renderingService.GetDataSource<Contact>();
+
+            return View("~/Views/Contact.cshtml", item);
+        }
+        public ActionResult SocialNetworks()
+        {
+            var item = _renderingService.GetDataSource<SocialNetworks>();
+
+            return View("~/Views/SocialNetworks.cshtml", item);
+        }
+        public ActionResult CreatedBy()
+        {
+            var item = _renderingService.GetDataSource<CreatedBy>();
+
+            return View("~/Views/CreatedBy.cshtml", item);
+        }
     }
 }

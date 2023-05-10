@@ -1,0 +1,18 @@
+﻿@model Pasantes.Website.Models.Contact
+
+<div class="container m-0">
+    <h2>@Model.Title</h2>
+    <hr class="bg-info">
+    <p>@Model.Description</p>
+    <div class="row">
+        <p><img src="@Model.IconLocation.Src" alt="@Model.IconLocation.Alt" width="@Model.IconLocation.Width" height="@Model.IconLocation.Height"> @Model.Address @Model.City, @Model.Country</p>
+    </div>
+    <div class="row">
+        <p><img src="@Model.IconPhone.Src" alt="@Model.IconPhone.Alt" width="@Model.IconPhone.Width" height="@Model.IconPhone.Height"> @Model.Phone </p>
+    </div>
+    <div class="row">
+        <p><img src="@Model.IconEmail.Src" alt="@Model.IconEmail.Alt" width="@Model.IconEmail.Width" height="@Model.IconEmail.Height"> @Model.Email </p>
+    </div>
+</div>
+
+

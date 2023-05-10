@@ -1,36 +1,5 @@
 ﻿@using Sitecore.Mvc
 <!DOCTYPE html>
-<style>
-    body {
-        margin: 0;
-    }
-
-    footer {
-        background-color: #fff
-    }
-
-    .wrapper {
-        display: grid;
-        grid-template-columns: 10% 80% 10%;
-        grid-gap: 10px;
-    }
-
-    .footer-wrapper {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-gap: 10px;
-        background-color: #4B5460;
-    }
-
-    .link-wrapper {
-        padding: 20px;
-        font-size: 150%;
-    }
-
-    img {
-        width: 100%;
-    }
-</style>
 
 <head>
     @{
@@ -55,9 +24,22 @@
             <small>This is body</small>
             @Html.Sitecore().Placeholder("main")
         </div>
-        <div style="border: solid black 2px; margin-bottom: 10px; ">
-            <small>This is footer</small>
-            @Html.Sitecore().Placeholder("footer")
+        <div>
+            <!--- <small>This is footer</small> -->
+            <div class="row bg-light m-0">
+                <div class="col">
+                    @Html.Sitecore().Placeholder("footer-column1")
+                </div>
+                <div class="col">
+                    @Html.Sitecore().Placeholder("footer-column2")
+                </div>
+                <div class="col">
+                    @Html.Sitecore().Placeholder("footer-column3")
+                </div>
+            </div>
+            <div class="row mx-0">
+                @Html.Sitecore().Placeholder("footer-column4")
+            </div>
         </div>
     </div>
 
