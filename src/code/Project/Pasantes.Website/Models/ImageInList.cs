@@ -3,12 +3,12 @@ using Pasantes.Website.Models.GlassMapper;
 
 namespace Pasantes.Website.Models
 {
-    public interface Banner : BaseItem
+    public interface ImageInList : BaseItem
     {
-        Image Image { get; set; }
-
-        string Title { get; set; }
+         Image Image { get; set; }
 
          string Description { get; set; }
+
+         Link Link { get; set; }
     }
 }

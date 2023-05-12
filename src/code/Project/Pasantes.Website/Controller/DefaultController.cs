@@ -5,19 +5,18 @@ using Pasantes.Website.Services.GlassMapper;
 using Sitecore.Data.Items;
 using System.Collections.Generic;
 using Glass.Mapper.Sc;
+using Glass.Mapper.Sc.Web;
+using System;
 
 namespace Pasantes.Website.Controller
 {
     public class DefaultController : System.Web.Mvc.Controller
     {
-        private readonly IRenderingService _renderingService;
         private readonly ISitecoreService _sitecoreService;
 
-        public DefaultController(IRenderingService renderingService, 
-            ISitecoreService sitecoreService)
+        public DefaultController(ISitecoreService sitecoreService)
         {
-            _renderingService = renderingService;
-            _sitecoreService = sitecoreService;
+            var _sitecoreService = sitecoreService ?? throw new ArgumentNullException(nameof(sitecoreService));
         }
 
         public ActionResult Sample()
@@ -71,6 +70,29 @@ namespace Pasantes.Website.Controller
             var item = _renderingService.GetDataSource<Banner>();
 
             return View("~/Views/Banner.cshtml", item);
+        }
+
+
+        public ActionResult ImageList()
+        {
+            var imageListContainer = _renderingService.GetDataSource<ImageList>();
+
+            var imagesInList = new List<ImageInList>();
+
+            /*if (imageListContainer.Item.Children != null)
+            {
+                foreach (Item item in imageListContainer.Item.GetChildren())
+                {
+                    
+                        var image = _sitecoreService.GetItem<ImageInList>(item);
+
+                        imagesInList.Add(image);
+                }
+            }*/
+
+            imageListContainer.Images = imagesInList;
+
+            return View("~/Views/ImageList.cshtml", imageListContainer);
         }
     }
 }

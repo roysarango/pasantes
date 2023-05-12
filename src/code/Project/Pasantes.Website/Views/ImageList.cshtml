@@ -1,0 +1,24 @@
+﻿@model Pasantes.Website.Models.ImageList
+
+
+@if (Model == null || Model.Images == null)
+{
+    <h3>No data source found!</h3>
+}
+else
+{
+    <h1>@Model.Title</h1>
+    foreach (var image in Model.Images)
+    {
+
+        <div class="gallery">
+            <a target="_blank" href="@image.Link.Url">
+                <img src="@image.Image.Src" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">@image.Description</div>
+        </div>
+
+    }
+
+
+}

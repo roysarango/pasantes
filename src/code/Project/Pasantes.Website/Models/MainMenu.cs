@@ -3,10 +3,10 @@ using Pasantes.Website.Models.GlassMapper;
 
 namespace Pasantes.Website.Models
 {
-    public class MainMenu : BaseItem
+    public interface MainMenu : BaseItem
     {
-        public virtual string Title { get; set; }
+        string Title { get; set; }
 
-        public virtual Link Link { get; set; }
+         Link Link { get; set; }
     }
 }

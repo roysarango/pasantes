@@ -3,12 +3,12 @@ using Pasantes.Website.Models.GlassMapper;
 
 namespace Pasantes.Website.Models
 {
-    public class TitleAndText : BaseItem
+    public interface TitleAndText : BaseItem
     {
-        public virtual string Title { get; set; }
+        string Title { get; set; }
 
-        public virtual string Text { get; set; }
+        string Text { get; set; }
 
-        public virtual Image Image1 { get; set; }
+        Image Image1 { get; set; }
     }
 }
