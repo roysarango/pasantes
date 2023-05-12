@@ -1,22 +1,22 @@
-﻿using Sitecore.Mvc.Presentation;
-using System.Web.Mvc;
+﻿using Glass.Mapper.Sc;
+using Glass.Mapper.Sc.Web.Mvc;
 using Pasantes.Website.Models;
-using Pasantes.Website.Services.GlassMapper;
 using Sitecore.Data.Items;
+using Sitecore.Mvc.Presentation;
 using System.Collections.Generic;
-using Glass.Mapper.Sc;
-using Glass.Mapper.Sc.Web;
-using System;
+using System.Web.Mvc;
 
 namespace Pasantes.Website.Controller
 {
     public class DefaultController : System.Web.Mvc.Controller
     {
         private readonly ISitecoreService _sitecoreService;
+        private readonly IMvcContext _mvcContext;
 
-        public DefaultController(ISitecoreService sitecoreService)
+        public DefaultController(ISitecoreService sitecoreService, IMvcContext mvcContext)
         {
-            var _sitecoreService = sitecoreService ?? throw new ArgumentNullException(nameof(sitecoreService));
+            _sitecoreService = sitecoreService;
+            _mvcContext = mvcContext;
         }
 
         public ActionResult Sample()
@@ -35,14 +35,14 @@ namespace Pasantes.Website.Controller
 
         public ActionResult TitleAndTextGlassMapper()
         {
-            var item = _renderingService.GetDataSource<TitleAndText>();
+            var model = _mvcContext.GetDataSourceItem<TitleAndText>();
 
-            return View("~/Views/TitleAndTextGlassMapper.cshtml", item);
+            return View("~/Views/TitleAndTextGlassMapper.cshtml", model);
         }
 
         public ActionResult MainMenu()
         {
-            var mainMenuContainer = _renderingService.GetDataSource<MainMenuContainer>();
+            var mainMenuContainer = _mvcContext.GetDataSourceItem<MainMenuContainer>();
 
             var menuOptions = new List<MainMenu>();
 
@@ -67,7 +67,7 @@ namespace Pasantes.Website.Controller
 
         public ActionResult Banner()
         {
-            var item = _renderingService.GetDataSource<Banner>();
+            var item = _mvcContext.GetDataSourceItem<Banner>();
 
             return View("~/Views/Banner.cshtml", item);
         }
@@ -75,7 +75,7 @@ namespace Pasantes.Website.Controller
 
         public ActionResult ImageList()
         {
-            var imageListContainer = _renderingService.GetDataSource<ImageList>();
+            var imageListContainer = _mvcContext.GetDataSourceItem<ImageList>();
 
             var imagesInList = new List<ImageInList>();
 

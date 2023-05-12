@@ -5,7 +5,6 @@ using Glass.Mapper.Sc.Web.WebForms;
 using Microsoft.Extensions.DependencyInjection;
 using Pasantes.Website.Controller;
 using Pasantes.Website.Services.GlassMapper;
-using Sitecore.Collections;
 using Sitecore.Data;
 using Sitecore.DependencyInjection;
 using System;
@@ -20,7 +19,7 @@ namespace Pasantes.Website.IOC
             serviceCollection.AddScoped<ISitecoreServiceFactory, SitecoreServiceFactory>();
 
             // Services
-            serviceCollection.AddTransient<IDataSourceServices, DataSourceServices>();
+            //serviceCollection.AddTransient<IDataSourceServices, DataSourceServices>();
            // serviceCollection.AddTransient<IRenderingService, RenderingService>();
 
 
