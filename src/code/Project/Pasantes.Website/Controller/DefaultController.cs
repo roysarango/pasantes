@@ -77,9 +77,9 @@ namespace Pasantes.Website.Controller
         {
             var imageListContainer = _mvcContext.GetDataSourceItem<ImageList>();
 
-            var imagesInList = new List<ImageInList>();
+            /*var imagesInList = new List<ImageInList>();
 
-            /*if (imageListContainer.Item.Children != null)
+            if (imageListContainer.Item.Children != null)
             {
                 foreach (Item item in imageListContainer.Item.GetChildren())
                 {
@@ -88,9 +88,9 @@ namespace Pasantes.Website.Controller
 
                         imagesInList.Add(image);
                 }
-            }*/
+            }
 
-            imageListContainer.Images = imagesInList;
+            imageListContainer.Images = imagesInList;*/
 
             return View("~/Views/ImageList.cshtml", imageListContainer);
         }
