@@ -1,0 +1,34 @@
+﻿---
+ID: "17afed64-539f-44e1-84be-b4bf965b3fed"
+Parent: "2200f4fe-9bfa-41c6-b773-43c7258fd615"
+Template: "7b142651-b321-4e1e-819f-4f0a68f53c61"
+Path: /sitecore/content/Pasantes/Data/Assets For Image List/Penguins
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230515T193757Z
+    - ID: "27e17f19-9d10-4698-96a4-d8ce761e1985"
+      Hint: Image
+      Value: |
+        <image mediaid="{80F681B5-B6A7-43B9-A593-3A366126D0B0}" />
+    - ID: "6148c32b-969e-4339-974d-ecf925b95817"
+      Hint: Link
+      Value: |
+        <link text="visit google" linktype="external" url="https://www.google.com/" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e024c22-ba3b-4279-9a54-8cdd0ec30494"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d46b1fbc-a3a8-4e55-83a7-5027c51cd981"
+      Hint: Description
+      Value: penguins
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230515T194008Z

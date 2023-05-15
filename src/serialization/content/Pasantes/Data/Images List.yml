@@ -1,0 +1,33 @@
+﻿---
+ID: "aea9fa49-6a26-43a0-8ec0-6840e2513a63"
+Parent: "86b24852-b71b-449e-b06d-5df9105032b0"
+Template: "ddb95504-00ed-4823-82f0-4a9b6f909d23"
+Path: /sitecore/content/Pasantes/Data/Images List
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230515T194137Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1dea3b0-9a12-4c21-856a-92bd011b7b56"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c8777a10-8768-400f-ae8e-7787c831957f"
+      Hint: Images
+      Value: |
+        {FC2EA50A-B3AE-44B6-82D7-F7340E5CEB34}
+        {75666402-78BD-474C-9F72-5C28B608EDFC}
+        {17AFED64-539F-44E1-84BE-B4BF965B3FED}
+        {2588A929-D431-44E0-8A2E-10EF7C9989F2}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230515T200421Z
+    - ID: "fc42be24-9a1f-4343-ac61-f768a758cf3d"
+      Hint: Title
+      Value: A main title here
