@@ -676,6 +676,7 @@
     <Compile Include="App_Start\GlassMapperScCustom.cs" />
     <Compile Include="Controller\DefaultController.cs" />
     <Compile Include="IOC\RegisterDependencies.cs" />
+    <Compile Include="Models\Article.cs" />
     <Compile Include="Models\ImageList.cs" />
     <Compile Include="Models\ImageInList.cs" />
     <Compile Include="Models\GlassMapper\BaseItem.cs" />
@@ -714,6 +715,7 @@
     <Content Include="Views\Design\TwoColumn.cshtml" />
     <Content Include="Views\Design\ThreeColumn.cshtml" />
     <Content Include="Views\Design\FourColumn.cshtml" />
+    <Content Include="Views\Article.cshtml" />
     <Content Include="Views\ImageList.cshtml" />
     <None Include="Views\web.config" />
     <None Include="Web.Debug.config">

@@ -94,5 +94,12 @@ namespace Pasantes.Website.Controller
 
             return View("~/Views/ImageList.cshtml", imageListContainer);
         }
+
+	public ActionResult Article()
+        {
+            var item = _mvcContext.GetDataSourceItem<Article>();
+
+            return View("~/Views/Article.cshtml", item);
+        }
     }
 }

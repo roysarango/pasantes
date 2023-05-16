@@ -1,0 +1,28 @@
+﻿@model Pasantes.Website.Models.Article
+
+@if (Model == null)
+{
+    <h3>No data source found!</h3>
+}
+else
+{
+    <a href="@Model.Cta.Url" class="card-link">
+        <div class="card">
+            <div class="image-container">
+                <img src="@Model.Image.Src" class="image">
+            </div>
+            <div class="content-container">
+                <h2>@Model.Title</h2>
+                <p>@Model.Description</p>
+                <button>
+                    <p>@Model.CtaLabel</p>
+                    <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </a>
+
+
+}
