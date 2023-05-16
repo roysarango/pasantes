@@ -72,5 +72,13 @@ namespace Pasantes.Website.Controller
 
             return View("~/Views/Banner.cshtml", item);
         }
+
+        public ActionResult Article()
+        {
+            var item = _renderingService.GetDataSource<Article>();
+
+            return View("~/Views/Article.cshtml", item);
+        }
+
     }
 }
