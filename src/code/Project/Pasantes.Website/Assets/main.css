@@ -16603,3 +16603,129 @@ body.swpe {
     }
 
 /*# sourceMappingURL=index.bundle.css.map */
+
+.a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.card-link {
+    display: block;
+}
+
+.card {
+    background: none;
+    border: 1px solid var(--grey-40);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    color: #050d11;
+    border-style: none;
+    text-align: left;
+}
+
+.image-container {
+    overflow: hidden;
+    border-radius: 8px;
+    height: 50%;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.card-link:hover .image {
+    transform: scale(1.1);
+}
+
+.content-container {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: Poppins Medium,Arial,Helvetica,sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+    font-family: Poppins Medium,Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+button {
+    position: relative;
+    display: flex;
+    font-weight: 600;
+    font-size: 20px;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+    button p {
+        margin: 0;
+        position: relative;
+        font-size: 20px;
+        color: var(--primary-color)
+    }
+
+    button::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        left: 0;
+        bottom: -7px;
+        background: var(--hovered-color);
+        height: 2px;
+        transition: 0.3s ease-out;
+    }
+
+    button p::before {
+        position: absolute;
+        width: 0%;
+        inset: 0;
+        color: var(--hovered-color);
+        overflow: hidden;
+        transition: 0.3s ease-out;
+    }
+
+    button:hover::after {
+        width: 100%;
+    }
+
+    button:hover p::before {
+        width: 100%;
+    }
+
+    button:hover svg {
+        transform: translateX(4px);
+        color: var(--hovered-color)
+    }
+
+    button svg {
+        color: var(--primary-color);
+        transition: 0.2s;
+        position: relative;
+        width: 15px;
+        transition-delay: 0.2s;
+    }

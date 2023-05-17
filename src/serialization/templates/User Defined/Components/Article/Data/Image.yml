@@ -1,18 +1,15 @@
 ﻿---
-ID: "fb541340-5e08-476d-bd96-2a54246e1a79"
-Parent: "ac32cb6a-fb49-437f-b662-8b67eea908f9"
-Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
-Path: "/sitecore/layout/Placeholder Settings/User Defined/3 column/three-column-left"
+ID: "78482a84-6a8f-413b-8d9e-49469fd5794e"
+Parent: "31fe2752-3d3c-4118-be3e-bfd610a1e870"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/User Defined/Components/Article/Data/Image
 SharedFields:
-- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
-  Hint: Placeholder Key
-  Value: "three-column-left"
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Image
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 50
-- ID: "e391b526-d0c5-439d-803e-17512eae6222"
-  Hint: Allowed Controls
-  Value: "{2C51D154-8378-457C-AA52-212C9F1195D3}"
+  Value: 100
 Languages:
 - Language: en
   Versions:
@@ -20,7 +17,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20230509T004141Z
+      Value: 20230511T212854Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -31,11 +28,11 @@ Languages:
         sitecore\Admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8c6cea55-e295-44cf-a4c2-449541c34075"
+      Value: "3c4da9d2-7d0e-43f0-a54a-4eea6c75f618"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20230511T234605Z
+      Value: 20230511T225441Z
